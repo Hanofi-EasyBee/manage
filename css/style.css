@@ -1,0 +1,35 @@
+*{
+    background-color:#FFEAC9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% auto;
+}
+
+.nav-items li{
+    list-style: none;
+    display: inline;
+    margin-right:3rem;
+   
+}
+.nav-items a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+.getStarted button{
+    background-color: orangered;
+    color: white;
+    border-radius: 22px;
+    border-color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    padding: 5px 20px;
+}
+
