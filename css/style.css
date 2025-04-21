@@ -27,9 +27,34 @@ nav{
     background-color: orangered;
     color: white;
     border-radius: 22px;
-    border-color: orangered;
+    border: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3rem;
     padding: 5px 20px;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:2% 5%;
+
+}
+.description h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    width: 60%;
+    margin-top: -10%;
+    margin-bottom: 3%;
+
+}
+.description p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 70%;
+    margin-bottom: 5%;
+    color: #4B4B4B;
+}   
+
+
 
