@@ -37,7 +37,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin:2% 5%;
+    margin:4% 5%;
 
 }
 .description h2{
@@ -56,5 +56,110 @@ nav{
     color: #4B4B4B;
 }   
 
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3% 5%;
+   
+}
+
+.manage{
+    margin-top: -15%;
+    
+
+}
+
+.manage h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.manage p{
+    color: #4B4B4B;
+    width: 85%;
+
+}
+.record{
+    
+    margin-left: 20%;
+}
 
 
+.record label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background-color: orangered;
+    color: white;
+    margin-right:20px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    padding:4px 20px;
+ 
+
+}
+
+.record02{
+    margin-left: 3%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.record P{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 17%;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+    width: 80%;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 5%;
+}
+
+.profile img{
+    border-radius: 50px;
+    width: 90px;
+    margin: -50px 130px 0 130px ;
+}
+
+.profile h2{
+    margin-bottom: 50px;
+}
+
+.profile1,.profile2,.profile3{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-top: 50px;
+    padding: 0 10px;
+    width: 500px;
+    height: 200px;
+}
+
+
+.profile h3{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.profile p{
+    background-color: white;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: bolder;
+    text-align: center;
+    width: 90%;
+
+}
